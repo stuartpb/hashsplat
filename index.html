@@ -102,7 +102,7 @@ THE SOFTWARE.
       /*global hashblot crypto*/
 
       function sampleBytes() {
-        return Array.apply([], crypto.getRandomValues(new Uint8Array(256)));
+        return Array.apply([], crypto.getRandomValues(new Uint8Array(64)));
       }
 
       function updateFromBytes(bytes) {
