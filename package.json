@@ -1,0 +1,29 @@
+{
+  "name": "hashsplat",
+  "version": "0.1.0",
+  "description": "Abstract visual representations of 256 bit sequences (ie. fingerprints)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stuartpb/hashsplat.git"
+  },
+  "keywords": [
+    "hash",
+    "visualization",
+    "fingerprint",
+    "hashblot",
+    "randomart"
+  ],
+  "author": "Stuart P. Bentley <s@stuartpb.com>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/stuartpb/hashsplat/issues"
+  },
+  "homepage": "https://github.com/stuartpb/hashsplat#readme",
+  "dependencies": {
+    "hashblot": "^0.4.5"
+  }
+}
