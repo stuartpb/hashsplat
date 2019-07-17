@@ -23,7 +23,7 @@ function hashsplat(bytes, document) {
     blotpath.setAttribute('d', hashblot.pd.q(
       bytes.slice(i*20, (i+1)*20)));
     blotpath.setAttribute('style', 'mix-blend-mode:' +
-      invert ? 'screen' : 'multiply');
+      (invert ? 'screen' : 'multiply'));
     gradient.setAttribute('x1', ltr ? 0 : '100%');
     gradient.setAttribute('x2', ltr ? '100%' : 0);
     gradient.setAttribute('y1', ttb ? 0 : '100%');
